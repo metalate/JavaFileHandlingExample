@@ -1,0 +1,14 @@
+#include<stdio.h>
+double pi=3.14;
+void artir(){
+	static int sayac=0;
+	sayac++;
+	printf("%d\n",sayac);
+}
+int main(){
+	artir();
+	artir();
+	artir();
+	return 0;
+	system("pause");
+}
